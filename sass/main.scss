@@ -1,3 +1,4 @@
+
 .hidden {
     display: none;
 }
@@ -20,3 +21,56 @@
 .dbswitch {
     color: red;
 }
+
+
+//FONTFACE SETTINGS
+@font-face{
+    font-family: 'myriad_pro', 'calibry';
+    src: url('../fonts/MYRIADPRO-REGULAR.woff')
+}
+
+//PAGE WIDE RULES
+
+//MOBILE STYLE RULES
+//HEADER RULES
+#mainHeader{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-right:5px;
+    padding-left:5px;
+    margin-bottom:30px;
+}
+
+#burgerCon{
+    display:none;
+}
+
+#mobileNav{
+    display:none;
+}
+
+#deskNav{
+    display:none;
+}
+
+#mainLogo{
+    margin-left:5px;
+}
+
+#loginLogo{
+    width:5%;
+}
+
+
+//SLIDESHOW RULES
+
+//REGISTER RULES
+
+//FOUR PICS RULES
+
+//REVIEWS RULES
+
+//VIDEO RULES
+
+
