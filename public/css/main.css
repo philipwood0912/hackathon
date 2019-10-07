@@ -1,3 +1,18 @@
 .hidden {
     display: none;
 }
+
+.divCon {
+    animation: slide 3s ease 7s;
+    -webkit-animation: slide 3s ease 7s;
+}
+
+@-webkit-keyframes slide {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes slide {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
