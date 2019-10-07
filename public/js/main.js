@@ -18,6 +18,6 @@
             cons[timer - 1].classList.add('hidden');
         }
         console.log(timer);
-    }, 10000);
+    }, 15000);
     
 })();
