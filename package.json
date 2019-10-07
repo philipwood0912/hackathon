@@ -6,11 +6,13 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.0.5",
-    "mysql": "^2.17.1"
+    "mysql": "^2.17.1",
+    "node-sass": "^4.12.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "scss": "node-sass --watch sass -o public/css"
   },
   "repository": {
     "type": "git",
