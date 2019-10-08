@@ -23,9 +23,6 @@ h2 {
   color: #345bb2;
   font-size: 24px; }
 
-li {
-  font-size: 12px; }
-
 img {
   width: 100%; }
 
@@ -231,6 +228,9 @@ footer {
   justify-content: center;
   margin-bottom: 10px; }
 
+#footerNavCon {
+  display: none; }
+
 #copyCon {
   text-align: right;
   padding-right: 5px;
@@ -238,3 +238,88 @@ footer {
 
 #copyCon p {
   font-size: 8px; }
+
+@media (min-width: 800px) {
+  #siteCon {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 920px; }
+  #menuCon.expanded {
+    display: none; }
+  #menuCon {
+    display: none; }
+  #burgerCon {
+    display: none; }
+  #burgerCon.slideToggle {
+    display: none; }
+  #hamburgerNav {
+    display: none; }
+  #deskNavCon {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px; }
+  #deskNav {
+    display: flex;
+    margin: 0 auto; }
+  #deskNav li {
+    list-style: none;
+    border-right: 1px solid #36454f;
+    border-right: 1px solid rgba(54, 69, 79, 0.5); }
+  #deskNav a {
+    text-decoration: none;
+    color: black;
+    padding: 15px; }
+  #deskNav li a:hover {
+    color: #345bb2;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s; }
+  #loginLogo {
+    width: 4%;
+    margin-right: 10px; }
+  #backToTopBtn {
+    display: none; }
+  #footerLogo {
+    width: 20%; }
+  #footerNavCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  #footerNav {
+    display: flex;
+    flex-direction: row; }
+  #footerNav li {
+    list-style: none;
+    font-size: 14px;
+    border-right: 1px solid #36454f;
+    border-right: 1px solid rgba(54, 69, 79, 0.5); }
+  #footerNav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px; }
+  #footerNav li a:hover {
+    color: #345bb2;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s; }
+  #contactUs {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
+  #contactCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  #contactInfo {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #36454f;
+    border-right: 1px solid rgba(54, 69, 79, 0.5); }
+  #socialIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 50px; }
+  .social {
+    width: 25px;
+    margin-top: 40px; } }

@@ -13,19 +13,25 @@
         <div id="menuCon"><img src="../images/burger.svg"></div>
 
         <div id="mobileNav"></div>
-
-        <div id="deskNav"></div>
-            <img id="mainLogo" src="../images/housecom_logo_mobile.svg">
-            <img id="loginLogo" src="../images/user2.svg">
+        <img id="mainLogo" src="../images/housecom_logo_mobile.svg">
+        <img id="loginLogo" src="../images/user2.svg">
     </header>
+    <div id="deskNavCon">
+            <ul id="deskNav">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#promoPic">About</a> </li>
+                <li> <a href="#contactCon">Contact</a> </li>
+                <li> <a href="#">Your Device</a></li>
+            </ul>
+        </div>
     <nav id="hamburgerNav">
         <h2 class="hidden">Main Navigation</h2>
         <div id="burgerCon">
-            <ul id="burgerMenu">
-                <li> <a href="index.html">Home</a> </li>
-                <li> <a href="#staffPhoto">About Us</a> </li>
-                <li> <a href="#promoProduct">Portfolio</a></li>
-                <li> <a href="#contact">Contact</a> </li>
+            <ul id="deskNav">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#promoPic">About</a> </li>
+                <li> <a href="#contactCon">Contact</a> </li>
+                <li> <a href="#">Your Device</a></li>
             </ul>
         </div>
 
@@ -40,9 +46,10 @@
         </div>
         <div id="controls"></div>
         <div class="descriptionCon">
-            <p>Introducing THERMOSECUTIRY by HouseCon, the NEWEST smart home monitoring system!  A fully digital, Wi-Fi and Bluetooth enabled security and home thermostat system.</p>
+            <h2 id="connect">Control And Monitor Your Home</h2>
+            <p>Introducing THERMOSECUTIRY by HouseCon, the newest smart home monitoring system!  A fully digital, Wi-Fi and Bluetooth enabled security and home thermostat system.</p>
         </div>
-        <button class="button" type="button">REGISTER YOUR DEVICE</button>
+        <button class="button" type="button">Register Your Device</button>
     </div>
 
 
@@ -51,9 +58,15 @@
             <img class="fourPic" id="pic1" src="../images/thermostat_4.jpg" alt="Smart Thermostat View 2">
             <img class="fourPic" id="pic2" src="../images/thermostat_5.jpg" alt="Smart Thermostat View 2">
             <div class="descriptionCon">
-                <p>All communications with the central system are accessible and 
-                controlled through the wall unit, product app. and the secured 
-                portal on the parent website.</p>
+
+            <div class="descriptionCon">
+                <h2 id="connect">Peace Of Mind</h2>
+                <p>The HouseComTM ThermoSecurityTM System App. is  available
+                on both iOS and Android devices. Whether you wish to adjust 
+                the temperature of your home from your  Android or iPhone 
+                watch or access the home  security system on your phone to 
+                check in on the  house occupancy through the remote, 
+                portable cameras.</p>
             </div>
             <img class="fourPic" id="pic3" src="../images/image2.jpg" alt="Smart Thermostat View 2">
             <img class="fourPic" id="pic4" src="../images/image3.jpg" alt="Smart Thermostat View 2">
@@ -70,12 +83,8 @@
             <img id="placeholder" src="../images/image1.jpg" alt="Smart Thermostat Front View">
         </div>
         <div class="descriptionCon">
-            <p>The HouseComTM ThermoSecurityTM System App. is  available
- on both iOS and Android devices. Whether you wish to adjust 
-the temperature of your home from your  Android or iPhone 
-watch or access the home  security system on your phone to 
-check in on the  house occupancy through the remote, 
-portable cameras</p>
+            <h2 id="connect">The Perfect Addition</h2>
+            <p>The new THERMOSECURITY from HomeCom is the perfect pairing to all your existing smart home devices, or it can be used as a hub to connect new devices in the future. </p>
         </div>
     </div>
 
@@ -114,11 +123,21 @@ portable cameras</p>
     </div>
 
     <footer>
-        <button class="button" type="button">BACK TO TOP</button>
+        <button id="backToTopBtn" class="button" type="button">BACK TO TOP</button>
+        <div id="footerNavCon">
+            <ul id="footerNav">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#promoPic">About</a> </li>
+                <li> <a href="#contactCon">Contact</a> </li>
+                <li> <a href="#">Your Device</a></li>
+            </ul>
+            <img id="footerLogo" src="../images/housecom_logo_2.svg">
+        </div>
     </footer>
 
     <div id="copyCon"> <p>Copyright 2019 ThermoSecurity by HouseCom</p> </div>
 
     <script type="application/javascript" src="js/main.js"></script>
+</div>
 </body>
 </html>
