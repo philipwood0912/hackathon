@@ -118,10 +118,14 @@ img {
 
 #mainLogo {
   margin-left: 5px;
-  width: 50%; }
+  max-width: 80%; }
+
+#bigLogo {
+  display: none; }
 
 #loginLogo {
-  max-width: 20px; }
+  max-width: 20px;
+  margin-bottom: 5px; }
 
 #hero {
   display: flex;
@@ -133,13 +137,14 @@ img {
   position: relative; }
   #slideshowCon .arrow {
     position: absolute;
-    width: 50px;
+    width: 25px;
     bottom: 0;
-    padding: 10px; }
+    padding: 10px;
+    opacity: 0.5; }
   #slideshowCon .right {
     right: 0; }
   #slideshowCon .arrow:hover {
-    opacity: 0.5; }
+    opacity: 0.7; }
   #slideshowCon .arrow:active {
     -webkit-transform: translate(0px, 2px);
     -moz-transform: translate(0px, 2px);
@@ -268,6 +273,13 @@ footer {
     font-size: 20px; } }
 
 @media (min-width: 900px) {
+  #mainHeader {
+    max-width: 100%;
+    height: 100px; }
+  #mainLogo {
+    display: none; }
+  #bigLogo {
+    display: flex; }
   #menuCon.expanded {
     display: none; }
   #menuCon {
@@ -299,7 +311,12 @@ footer {
     -webkit-transition: color 0.2s; }
   #loginLogo {
     width: 4%;
-    margin-right: 10px; }
+    margin-right: 10px;
+    padding-left: 100px; }
+  #slideshowCon {
+    position: relative; }
+    #slideshowCon .arrow {
+      width: 50px; }
   #backToTopBtn {
     display: none; }
   #footerLogo {
