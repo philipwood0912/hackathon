@@ -59,10 +59,76 @@ h2{
     padding-right:5px;
     padding-left:5px;
     margin-bottom:30px;
+    height: 100px;
 }
 
-#burgerCon{
-    display:none;
+#logoCon img{
+    height:70px;
+    width:70px;
+    margin-top:5px;
+    
+}
+
+#menuCon.expanded {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#menuCon {
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+    line-height: 27px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid #000000;
+    transition: all 500ms ease;
+    img {
+        margin-right: 2px;
+    }
+}
+
+#burgerCon {
+    display: none;
+    background-color: #fff;
+}
+
+#burgerCon.slideToggle {
+    display: block;
+    overflow: inherit;
+}
+
+#hamburgerNav {
+    margin: 0 auto;
+    ul {
+        list-style: none;
+        padding: 0;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+#hamburgerNav li a {
+    display: block;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: #000000;
+}
+
+#hamburgerNav li a:hover {
+    color: #345bb2;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+}
+
+#hamburgerNav li {
+    border-bottom: 1px solid #000000;
+}
+
+#hamburgerNav li:first-child {
+    border-top: 1px solid #000000;
 }
 
 #mobileNav{
