@@ -138,6 +138,12 @@ img {
     padding: 10px; }
   #slideshowCon .right {
     right: 0; }
+  #slideshowCon .arrow:hover {
+    opacity: 0.5; }
+  #slideshowCon .arrow:active {
+    -webkit-transform: translate(0px, 2px);
+    -moz-transform: translate(0px, 2px);
+    transform: translate(0px, 2px); }
 
 .descriptionCon {
   max-width: 600px;
