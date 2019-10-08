@@ -9,13 +9,15 @@
 </head>
 <body>
     <header id="mainHeader"> 
-        <div id="menuCon"><img src="../images/burger.svg"></div>
+        <div id="menuCon"><img src="../images/burger.svg" alt="Hamburger Nav Menu"></div>
 
         <div id="mobileNav"></div>
-        <img id="mainLogo" src="../images/housecom_logo_mobile.svg">
-        <img id="loginLogo" src="../images/user2.svg">
+        <img id="mainLogo" src="../images/housecom_logo_mobile.svg" alt="Main Web Logo">
+        <img id="bigLogo" src="../images/housecom_big_logo.svg" alt="Big Web Logo">
+        <img id="loginLogo" src="../images/user2.svg" alt="Blank User Logo">
     </header>
     <div id="deskNavCon">
+        <h2 class="hidden">Desktop Navigation</h2>
             <ul id="deskNav">
                 <li> <a href="#">Home</a> </li>
                 <li> <a href="#promoPic">About</a> </li>
@@ -37,25 +39,23 @@
     </nav>
 
     <div id="hero">
-        {{!-- REPLACE THIS WHITH THE SLIDESHOW OF IMAGES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! --}}
         <div id="slideshowCon">
-            <div class="arrow left"><img src="../images/arrow2.svg"></div>
-            <div class="arrow right"><img src="../images/arrow1.svg"></div>
-            <img id="slideImg" src="../images/image0.jpg" alt="Smart Thermostat Front View">
+            <div class="arrow left"><img src="../images/arrow2.svg" alt="Back Arrow"></div>
+            <div class="arrow right"><img src="../images/arrow1.svg" alt="Forward Arrow"></div>
+            <img id="slideImg" src="../images/image0.jpg" alt="Smart Thermostat Slide Show">
         </div>
-        <div id="controls"></div>
         <div class="descriptionCon">
             <h2 id="connect">Control And Monitor Your Home</h2>
             <p>Introducing THERMOSECUTIRY by HouseCon, the newest smart home monitoring system!  A fully digital, Wi-Fi and Bluetooth enabled security and home thermostat system.</p>
         </div>
-        <button class="button" type="button">Register Your Device</button>
+        <button class="button" type="button" href="#">Register Your Device</button>
     </div>
 
 
     <div id="promoPic">
         <div id="fourPicCon">
-            <img class="fourPic" id="pic1" src="../images/thermostat_4.jpg" alt="Smart Thermostat View 2">
-            <img class="fourPic" id="pic2" src="../images/thermostat_5.jpg" alt="Smart Thermostat View 2">
+            <img class="fourPic" id="pic1" src="../images/thermostat_4.jpg" alt="Smart Thermostat View 4">
+            <img class="fourPic" id="pic2" src="../images/thermostat_5.jpg" alt="Smart Thermostat View 5">
 
             <div class="descriptionCon">
                 <h2 id="connect">Peace Of Mind</h2>
@@ -66,8 +66,8 @@
                 check in on the  house occupancy through the remote, 
                 portable cameras.</p>
             </div>
-            <img class="fourPic" id="pic3" src="../images/phone_gui.jpg" alt="Smart Thermostat View 2">
-            <img class="fourPic" id="pic3" src="../images/image1.jpg" alt="Smart Thermostat View 2">
+            <img class="fourPic" id="phoneGui" src="../images/phone_gui.jpg" alt="Smart Thermostat Controls on Iphone">
+            <img class="fourPic" id="pic3" src="../images/image1.jpg" alt="Smart Thermostat View 3">
         </div>
     </div>
 
@@ -76,9 +76,10 @@
     </div>
 
     <div id="videoCon">
+        <h2 class="hidden">Promotional Video</h2>
         <div id="video">
             {{!-- REMOVE THIS PLAVEHOLDER WITH THE VIDEO!!!!!!!!!!!! --}}
-            <img id="placeholder" src="../images/image1.jpg" alt="Smart Thermostat Front View">
+            <img id="placeholder" src="../images/image1.jpg" alt="Smart Thermostat Video">
         </div>
         <div class="descriptionCon">
             <h2 id="connect">The Perfect Addition</h2>
@@ -90,7 +91,6 @@
         <h2 id="connect">Connect With Us</h2>
 
         <div id="contactCon">
-
             <div id="contactInfo">
                 <h4>Address</h4>
                 <p>1234 Fanshawe College Rd.<br>
@@ -111,29 +111,32 @@
             <div id="socialIcons">
                 <img class="social" src="../images/facebook.svg" id="facebook" alt="facebook logo">
 
-                <img class="social" src="../images/instagram.svg" id="facebook" alt="facebook logo">
+                <img class="social" src="../images/instagram.svg" id="facebook" alt="Instagram logo">
 
-                <img class="social" src="../images/youtube.svg" id="facebook" alt="facebook logo">
+                <img class="social" src="../images/youtube.svg" id="facebook" alt="Youtube logo">
 
-                <img class="social" src="../images/twitter.svg" id="facebook" alt="facebook logo">
+                <img class="social" src="../images/twitter.svg" id="facebook" alt="Twitter logo">
             </div>
         </div>
     </div>
 
     <footer>
-        <button id="backToTopBtn" class="button" type="button">Back To Top</button>
+        <button id="backToTopBtn" class="button" type="button" href="#">Back To Top</button>
         <div id="footerNavCon">
+            <h2 class="hidden">Footer</h2>
             <ul id="footerNav">
                 <li> <a href="#">Home</a> </li>
                 <li> <a href="#promoPic">About</a> </li>
                 <li> <a href="#contactCon">Contact</a> </li>
                 <li> <a href="#">Your Device</a></li>
             </ul>
-            <img id="footerLogo" src="../images/housecom_logo_2.svg">
+            <img id="footerLogo" src="../images/housecom_logo_2.svg" alt="Footer Logo">
         </div>
     </footer>
 
-    <div id="copyCon"> <p>Copyright 2019 ThermoSecurity by HouseCom</p> </div>
+    <div id="copyCon"> 
+        <h2 class="hidden">Copyright Information</h2>
+        <p>Copyright 2019 ThermoSecurity by HouseCom</p> </div>
 
     <script type="application/javascript" src="js/main.js"></script>
 </div>
