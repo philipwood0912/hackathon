@@ -146,12 +146,12 @@ img {
 .divWrap {
   display: flex;
   flex-direction: column;
-  padding: 0;
-  padding-top: 10px; }
+  padding: 15px; }
   .divWrap h3 {
     font-size: 25px;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    padding-top: 10px; }
   .divWrap h2 {
     font-size: 30px;
     padding: 0;
@@ -165,11 +165,34 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-content: center; }
+  padding: 20px; }
   .conWrap p {
-    font-size: 16px;
-    width: 200px;
-    padding: 0; }
+    font-size: 18px;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    padding: 20px; }
+
+@media (min-width: 500px) {
+  .divWrap h3 {
+    font-size: 30px;
+    padding-top: 15px; }
+  .divWrap h2 {
+    font-size: 35px; }
+  .conWrap p {
+    font-size: 20px;
+    padding: 25px; } }
+
+@media (min-width: 880px) {
+  .divWrap h3 {
+    font-size: 35px;
+    padding-top: 25px; }
+  .divWrap h2 {
+    font-size: 40px; }
+  .conWrap p {
+    font-size: 24px;
+    padding: 25px;
+    width: 450px; } }
 
 @-webkit-keyframes slide {
   0% {
