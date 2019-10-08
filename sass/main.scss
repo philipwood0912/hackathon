@@ -9,7 +9,7 @@
  
  // Desktop devices
  @mixin desktop {
-    @media (min-width: #{880px}) {
+    @media (min-width: #{900px}) {
         @content;
     }
  }
@@ -46,7 +46,7 @@ h2{
 }
 
 img{
-    width:100%;
+    max-width:100%;
 }
 
 .button{
@@ -70,6 +70,7 @@ img{
     padding-right:5px;
     padding-left:5px;
     margin-top:5px;
+    height:50px;
 }
 
 #menuCon.expanded {
@@ -150,7 +151,7 @@ img{
 }
 
 #loginLogo{
-    width:8%;
+   max-width:20px;
 }
 
 //HERO & SLIDESHOW RULES
@@ -181,10 +182,6 @@ img{
 }
 
 
-//REMOVE PLACEHOLDER FOR SLIDESHOW!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-#placeholder{
-    width:100%;
-}
 
 //FOUR PICS RULES
 .fourPic{
@@ -205,15 +202,14 @@ img{
 .divWrap {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding:5px;
     h3 {
-        font-size: 25px;
+        font-size: 14px;
         padding: 0;
         margin: 0;
-        padding-top: 10px;
     }
     h2 {
-        font-size: 30px;
+        font-size: 24px;
         padding: 0;
         margin: 0;
     }
@@ -228,52 +224,15 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px;
     p {
-        font-size: 18px;
+        font-size: 14px;
         width: 250px;
-        padding: 0;
         margin: 0;
-        padding: 20px;
+        padding:10px;
     }
 }
 
-@include tablet {
-    .divWrap {
-        h3 {
-            font-size: 30px;
-            padding-top: 15px;
-        }
-        h2 {
-            font-size: 35px;
-        }
-    }
-    .conWrap {
-        p {
-            font-size: 20px;
-            padding: 25px;
-        }
-    }
-}
 
-@include desktop {
-    .divWrap {
-        h3 {
-            font-size: 35px;
-            padding-top: 25px;
-        }
-        h2 {
-            font-size: 40px;
-        }
-    }
-    .conWrap {
-        p {
-            font-size: 24px;
-            padding: 25px;
-            width: 450px;
-        }
-    }
-}
 
 @-webkit-keyframes slide {
     0% {
@@ -380,6 +339,8 @@ footer{
     h2{
         font-size:24px;
     }
+
+    
 
 }
 

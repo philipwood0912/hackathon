@@ -22,7 +22,7 @@ h2 {
   font-size: 18px; }
 
 img {
-  width: 100%; }
+  max-width: 100%; }
 
 .button {
   background-color: #345bb2;
@@ -41,7 +41,8 @@ img {
   justify-content: space-between;
   padding-right: 5px;
   padding-left: 5px;
-  margin-top: 5px; }
+  margin-top: 5px;
+  height: 50px; }
 
 #menuCon.expanded {
   -webkit-transform: rotate(90deg);
@@ -106,7 +107,7 @@ img {
   width: 50%; }
 
 #loginLogo {
-  width: 8%; }
+  max-width: 20px; }
 
 #hero {
   display: flex;
@@ -129,9 +130,6 @@ img {
   margin: 0 auto;
   padding: 5px; }
 
-#placeholder {
-  width: 100%; }
-
 .fourPic {
   margin-top: 15px; }
 
@@ -146,14 +144,13 @@ img {
 .divWrap {
   display: flex;
   flex-direction: column;
-  padding: 15px; }
+  padding: 5px; }
   .divWrap h3 {
-    font-size: 25px;
+    font-size: 14px;
     padding: 0;
-    margin: 0;
-    padding-top: 10px; }
+    margin: 0; }
   .divWrap h2 {
-    font-size: 30px;
+    font-size: 24px;
     padding: 0;
     margin: 0; }
 
@@ -164,35 +161,12 @@ img {
 .conWrap {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: 20px; }
+  justify-content: center; }
   .conWrap p {
-    font-size: 18px;
+    font-size: 14px;
     width: 250px;
-    padding: 0;
     margin: 0;
-    padding: 20px; }
-
-@media (min-width: 500px) {
-  .divWrap h3 {
-    font-size: 30px;
-    padding-top: 15px; }
-  .divWrap h2 {
-    font-size: 35px; }
-  .conWrap p {
-    font-size: 20px;
-    padding: 25px; } }
-
-@media (min-width: 880px) {
-  .divWrap h3 {
-    font-size: 35px;
-    padding-top: 25px; }
-  .divWrap h2 {
-    font-size: 40px; }
-  .conWrap p {
-    font-size: 24px;
-    padding: 25px;
-    width: 450px; } }
+    padding: 10px; }
 
 @-webkit-keyframes slide {
   0% {
@@ -270,7 +244,7 @@ footer {
   h2 {
     font-size: 24px; } }
 
-@media (min-width: 880px) {
+@media (min-width: 900px) {
   #mainLogo {
     width: 30%; }
   #menuCon.expanded {
