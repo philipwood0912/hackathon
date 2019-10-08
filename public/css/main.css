@@ -1,11 +1,8 @@
 .hidden {
   display: none; }
 
-@font-face {
-  font-family: 'myriadpro', 'calibri';
-  src: url("../fonts/MYRIADPRO-REGULAR.woff"); }
-
 body {
+  font-family: 'myriadpro';
   display: flex;
   flex-direction: column;
   justify-content: center;
