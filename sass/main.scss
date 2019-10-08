@@ -1,7 +1,7 @@
 
 // Tablet devices
 @mixin tablet {
-    @media (min-width: #{575px;}) {
+    @media (min-width: #{575px}) {
         @content;
     }
  }
@@ -9,7 +9,7 @@
  
  // Desktop devices
  @mixin desktop {
-    @media (min-width: #{990px;}) {
+    @media (min-width: #{990px}) {
         @content;
     }
  }
@@ -17,26 +17,6 @@
 .hidden {
     display: none;
 }
-
-.divCon {
-    animation: slide 3s ease 7s;
-    -webkit-animation: slide 3s ease 7s;
-}
-
-@-webkit-keyframes slide {
-    from {opacity: 1;}
-    to {opacity: 0;}
-}
-
-@keyframes slide {
-    from {opacity: 1;}
-    to {opacity: 0;}
-}
-
-.dbswitch {
-    color: red;
-}
-
 
 //FONTFACE SETTINGS
 @font-face{
@@ -182,7 +162,72 @@ h2{
 //REVIEWS RULES
 #reviewCon{
     text-align:center;
-    background-color:grey;
+    background-color: lightgray;
+    height: 100px;
+}
+
+.divWrap {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 10px;
+    h3 {
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+    }
+    h2 {
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.divCon {
+    animation: slide 15s ease;
+    -webkit-animation: slide 15s ease;
+}
+
+.conWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    p {
+        font-size: 16px;
+        width: 200px;
+        padding: 0;
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 //VIDEO RULES
