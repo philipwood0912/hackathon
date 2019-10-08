@@ -1,25 +1,6 @@
 .hidden {
   display: none; }
 
-.divCon {
-  animation: slide 3s ease 7s;
-  -webkit-animation: slide 3s ease 7s; }
-
-@-webkit-keyframes slide {
-  from {
-    opacity: 1; }
-  to {
-    opacity: 0; } }
-
-@keyframes slide {
-  from {
-    opacity: 1; }
-  to {
-    opacity: 0; } }
-
-.dbswitch {
-  color: red; }
-
 @font-face {
   font-family: 'myriadpro', 'calibry';
   src: url("../fonts/MYRIADPRO-REGULAR.woff"); }
@@ -145,11 +126,64 @@ img {
 
 #reviewCon {
   text-align: center;
+<<<<<<< HEAD
   background-color: grey;
   margin-top: 15px; }
 
 #videoCon {
   margin-top: 15px; }
+=======
+  background-color: lightgray;
+  height: 100px; }
+
+.divWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  padding-top: 10px; }
+  .divWrap h3 {
+    font-size: 25px;
+    padding: 0;
+    margin: 0; }
+  .divWrap h2 {
+    font-size: 30px;
+    padding: 0;
+    margin: 0; }
+
+.divCon {
+  animation: slide 15s ease;
+  -webkit-animation: slide 15s ease; }
+
+.conWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center; }
+  .conWrap p {
+    font-size: 16px;
+    width: 200px;
+    padding: 0; }
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0; }
+  15% {
+    opacity: 1; }
+  85% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes slide {
+  0% {
+    opacity: 0; }
+  15% {
+    opacity: 1; }
+  85% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+>>>>>>> 3bbe9bdc2b2694e6651b645089a3ab0eded5e170
 
 #connect {
   text-align: center; }
