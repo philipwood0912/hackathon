@@ -116,6 +116,16 @@ img {
   justify-content: center;
   margin-top: 10px; }
 
+#slideshowCon {
+  position: relative; }
+  #slideshowCon .arrow {
+    position: absolute;
+    width: 50px;
+    bottom: 0;
+    padding: 10px; }
+  #slideshowCon .right {
+    right: 0; }
+
 .descriptionCon {
   text-align: left;
   padding: 15px; }

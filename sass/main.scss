@@ -163,6 +163,19 @@ img{
     margin-top: 10px;
 }
 
+#slideshowCon {
+    position: relative;
+    .arrow {
+        position: absolute;
+        width: 50px;
+        bottom: 0;
+        padding: 10px;
+    }
+    .right {
+        right: 0;
+    }
+}
+
 .descriptionCon{
     text-align:left;
     padding: 15px;
