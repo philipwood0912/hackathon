@@ -173,6 +173,14 @@ img{
     .right {
         right: 0;
     }
+    .arrow:hover {
+        opacity: 0.5;
+    }
+    .arrow:active {
+        -webkit-transform: translate(0px, 2px);
+        -moz-transform: translate(0px, 2px);
+        transform: translate(0px, 2px);
+    }
 }
 
 .descriptionCon{
