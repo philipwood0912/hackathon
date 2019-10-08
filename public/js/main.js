@@ -1,6 +1,9 @@
 (() => {
     console.log('hello');
 
+    var burgerCon = document.querySelector("#burgerCon"),
+        menuBut = document.querySelector("#menuCon");
+
     var cons = document.querySelectorAll('.divCon');
     var timer = 0;
     var cntTimer = setInterval(function() {
@@ -18,9 +21,7 @@
             cons[timer - 1].classList.add('hidden');
         }
         console.log(timer);
-    }, 10000);
-    var burgerCon = document.querySelector("#burgerCon"),
-        menuBut = document.querySelector("#menuCon");
+    }, 15000);
 
     function hamburgerMenu(){
         console.log("button clicked");
