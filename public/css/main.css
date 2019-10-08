@@ -176,7 +176,7 @@ img {
     margin: 0;
     padding: 20px; }
 
-@media (min-width: 575px) {
+@media (min-width: 500px) {
   .divWrap h3 {
     font-size: 30px;
     padding-top: 15px; }
@@ -186,7 +186,7 @@ img {
     font-size: 20px;
     padding: 25px; } }
 
-@media (min-width: 800px) {
+@media (min-width: 880px) {
   .divWrap h3 {
     font-size: 35px;
     padding-top: 25px; }
