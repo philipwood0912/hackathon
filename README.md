@@ -1,31 +1,41 @@
-#Hackathon Midterm
+# Hackathon Midterm
   
-  For the midterm we worked as a team of 5 featuring two designers, two developers and one project manager. As a team we designed and built a one page mobile, tablet and desktop site for HouseCom's new product: ThermoSecurity. ThermoSecurity is a digital thermostat that features home security and climate functions. 
+## About
+As a team we designed and built a one page mobile, tablet and desktop site for HouseCom's new product: ThermoSecurity. ThermoSecurity is a digital thermostat that features home security and climate functions.
+  
+### Authors
+* Scott Olthoff - Motion
+* Brisk Yunus - Design
+* Michael Prior - Front End Development
+* Philip Wood - Back End Development
+* Nick Shahfazlollahi - Project Manager
+  
+### Purpose
+This project is to be completed for the Hackathon Midterm Project in 24 hours. 
 
-##Getting Started
+### Getting Started
+Follow these instructions to get the project up and running on your machine.
 
-  Follow these instructions to get the project up and running on your machine.
-
-##Prerequisites
-
+### Prerequisites
 Express
 HBS
 Node.js
 SASS
 MySql
 
-##Going Live
-
+### Going Live
 Clone the repo onto your local machine.
 Drag the folder into your code editor of choice.
 On your terminal type in npm start.
 The terminal should return with a "localhost:#"
 Open up your browser and type in "localhost:" with the following number in your terminal.
 
-##Built With
+### Built With
 HBS
 SASS
 Express
 Node
 MySql
 Javascript
+
+__Due Date:__ October 9, 2019 at 9:00 AM
