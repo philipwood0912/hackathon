@@ -2,21 +2,26 @@
   display: none; }
 
 @font-face {
-  font-family: 'myriadpro', 'calibry';
+  font-family: 'myriadpro', 'calibri';
   src: url("../fonts/MYRIADPRO-REGULAR.woff"); }
 
 body {
-  font-family: 'myriadpro', 'calibry';
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto; }
 
 p {
-  font-size: 10px; }
+  font-size: 14px; }
+
+h4 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0; }
 
 h2 {
-  color: #345bb2; }
+  color: #345bb2;
+  font-size: 24px; }
 
 li {
   font-size: 12px; }
@@ -126,15 +131,8 @@ img {
 
 #reviewCon {
   text-align: center;
-<<<<<<< HEAD
-  background-color: grey;
-  margin-top: 15px; }
-
-#videoCon {
-  margin-top: 15px; }
-=======
   background-color: lightgray;
-  height: 100px; }
+  margin-top: 10px; }
 
 .divWrap {
   display: flex;
@@ -183,7 +181,9 @@ img {
     opacity: 1; }
   100% {
     opacity: 0; } }
->>>>>>> 3bbe9bdc2b2694e6651b645089a3ab0eded5e170
+
+#videoCon {
+  margin-top: 15px; }
 
 #connect {
   text-align: center; }
@@ -208,14 +208,12 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 40px; }
-
-.social:first-child {
-  margin-top: 10px; }
+  margin-left: 30px;
+  margin-bottom: 50px; }
 
 .social {
   width: 25px;
-  margin-top: 30px; }
+  margin-top: 40px; }
 
 footer {
   display: flex;
@@ -225,6 +223,8 @@ footer {
 
 #copyCon {
   text-align: right;
-  font-size: 5px;
   padding-right: 5px;
   background-color: grey; }
+
+#copyCon p {
+  font-size: 8px; }

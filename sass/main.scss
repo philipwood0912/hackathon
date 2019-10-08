@@ -21,13 +21,11 @@
 //FONTFACE SETTINGS
 @font-face{
     font-family: 'myriadpro', 'calibri';
-    src: url('../fonts/MYRIADPRO-REGULAR.woff')
+    src: url('../fonts/MYRIADPRO-REGULAR.woff');
 }
 
 //PAGE WIDE RULES
 body{
-    font-family: 'myriadpro', 'calibri';
-    src: url('../fonts/MYRIADPRO-REGULAR.woff')
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -35,15 +33,17 @@ body{
 }
 
 p{
-    font-size:10px;
+    font-size:14px;
 }
 
-h4{
-    margin:0;
-}
+h4 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;}
 
 h2{
     color: #345bb2;
+    font-size: 24px;
 }
 
 li{
@@ -172,6 +172,7 @@ img{
     padding: 15px;
 }
 
+
 //REMOVE PLACEHOLDER FOR SLIDESHOW!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #placeholder{
     width:100%;
@@ -186,7 +187,7 @@ img{
 #reviewCon{
     text-align:center;
     background-color: lightgray;
-    height: 100px;
+    margin-top:10px;
 }
 
 .divWrap {
@@ -286,16 +287,14 @@ img{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin-left:40px;
+    margin-left:30px;
+    margin-bottom:50px;
 }
 
-.social:first-child{
-    margin-top:10px;
-}
 
 .social{
     width:25px;
-    margin-top:30px;
+    margin-top:40px;
 }
 
 //FOOTER RULES
@@ -308,7 +307,13 @@ footer{
 
 #copyCon{
     text-align:right;
-    font-size:5px;
     padding-right:5px;
     background-color:grey;
 }
+
+#copyCon p{
+    font-size:8px;
+}
+
+
+//MEDIA QUERIES AND BREAKPOINTS
