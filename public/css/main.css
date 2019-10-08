@@ -34,8 +34,18 @@ h2 {
 h3 {
   font-family: 'myriadpro', Helvetica, sans seriff; }
 
+a {
+  transition: all .15s linear; }
+
 img {
   max-width: 100%; }
+
+video {
+  max-width: 100%; }
+
+.button, a, #loginLogo, .social, .arrow {
+  cursor: pointer;
+  transition: all .15s linear; }
 
 .button {
   font-family: 'myriadpro', Helvetica, sans seriff;
