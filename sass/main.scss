@@ -25,11 +25,30 @@
 
 //FONTFACE SETTINGS
 @font-face{
-    font-family: 'myriad_pro', 'calibry';
+    font-family: 'myriadpro', 'calibry';
     src: url('../fonts/MYRIADPRO-REGULAR.woff')
 }
 
 //PAGE WIDE RULES
+body{
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'myriadpro', 'calibry';
+    color: #345bb2;
+}
+
+.button{
+    background-color: #345bb2; //blue
+    border:none;
+    padding:10px;
+    text-align:center;
+    display:inline-block;
+    color:white;
+    font-size:12px;
+    border-radius:5px;
+}
 
 //MOBILE STYLE RULES
 //HEADER RULES
@@ -56,16 +75,22 @@
 
 #mainLogo{
     margin-left:5px;
+    width:50%;
 }
 
 #loginLogo{
     width:5%;
 }
 
+//HERO & SLIDESHOW RULES
 
-//SLIDESHOW RULES
-
-//REGISTER RULES
+#hero{
+    display:flex;
+    flex-direction:row;
+    margin:0 auto;
+    justify-content:center;
+    margin-bottom:30px;
+}
 
 //FOUR PICS RULES
 
@@ -73,4 +98,45 @@
 
 //VIDEO RULES
 
+//CONTACT RULES
+#connect{
+    text-align:center;
+}
+
+#contactUs{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+}
+
+#contactCon{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+#contactInfo{
+    font-size:14px;
+    width:50%;
+    margin-bottom:30px;
+}
+
+#socialIcons{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:15px;
+}
+
+.social{
+    width:50px;
+}
+
+//FOOTER RULES
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-bottom:30px;
+}
 

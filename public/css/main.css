@@ -21,8 +21,25 @@
   color: red; }
 
 @font-face {
-  font-family: 'myriad_pro', 'calibry';
+  font-family: 'myriadpro', 'calibry';
   src: url("../fonts/MYRIADPRO-REGULAR.woff"); }
+
+body {
+  margin: 0 auto; }
+
+h2 {
+  font-family: 'myriadpro', 'calibry';
+  color: #345bb2; }
+
+.button {
+  background-color: #345bb2;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px; }
 
 #mainHeader {
   display: flex;
@@ -42,7 +59,48 @@
   display: none; }
 
 #mainLogo {
-  margin-left: 5px; }
+  margin-left: 5px;
+  width: 50%; }
 
 #loginLogo {
   width: 5%; }
+
+#hero {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 30px; }
+
+#connect {
+  text-align: center; }
+
+#contactUs {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; }
+
+#contactCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+#contactInfo {
+  font-size: 14px;
+  width: 50%;
+  margin-bottom: 30px; }
+
+#socialIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 15px; }
+
+.social {
+  width: 50px; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px; }
