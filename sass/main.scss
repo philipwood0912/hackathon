@@ -51,11 +51,16 @@ body{
 
 p{
     font-family: 'myriadpro', 'calibry';
+    font-size:12px;
 }
 
 h2{
     font-family: 'myriadpro', 'calibry';
     color: #345bb2;
+}
+
+img{
+    width:100%;
 }
 
 .button{
@@ -67,6 +72,7 @@ h2{
     color:white;
     font-size:12px;
     border-radius:5px;
+    margin:0 auto;
 }
 
 //MOBILE STYLE RULES
@@ -169,15 +175,29 @@ h2{
 
 //HERO & SLIDESHOW RULES
 
+
+
 #hero{
     display:flex;
-    flex-direction:row;
-    margin:0 auto;
-    justify-content:center;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom:30px;
 }
 
+.descriptionCon{
+    text-align:left;
+    padding: 15px;
+}
+
+//REMOVE PLACEHOLDER FOR SLIDESHOW!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#placeholder{
+    width:100%;
+}
+
 //FOUR PICS RULES
+.fourPic{
+    margin-top:10px;
+}
 
 //REVIEWS RULES
 #reviewCon{
