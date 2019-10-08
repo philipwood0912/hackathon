@@ -19,13 +19,11 @@
 }
 
 //FONTFACE SETTINGS
-@font-face{
-    font-family: 'myriadpro', 'calibri';
-    src: url('../fonts/MYRIADPRO-REGULAR.woff');
-}
+
 
 //PAGE WIDE RULES
 body{
+    font-family: 'myriadpro';
     display:flex;
     flex-direction:column;
     justify-content: center;
