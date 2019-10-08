@@ -27,6 +27,9 @@
 body {
   margin: 0 auto; }
 
+p {
+  font-family: 'myriadpro', 'calibry'; }
+
 h2 {
   font-family: 'myriadpro', 'calibry';
   color: #345bb2; }
@@ -125,6 +128,10 @@ h2 {
   justify-content: center;
   margin-bottom: 30px; }
 
+#reviewCon {
+  text-align: center;
+  background-color: grey; }
+
 #connect {
   text-align: center; }
 
@@ -157,3 +164,9 @@ footer {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 30px; }
+
+#copyCon {
+  text-align: right;
+  font-size: 10px;
+  padding-right: 5px;
+  background-color: grey; }

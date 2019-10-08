@@ -1,4 +1,19 @@
 
+// Tablet devices
+@mixin tablet {
+    @media (min-width: #{575px;}) {
+        @content;
+    }
+ }
+
+ 
+ // Desktop devices
+ @mixin desktop {
+    @media (min-width: #{990px;}) {
+        @content;
+    }
+ }
+
 .hidden {
     display: none;
 }
@@ -32,6 +47,10 @@
 //PAGE WIDE RULES
 body{
     margin: 0 auto;
+}
+
+p{
+    font-family: 'myriadpro', 'calibry';
 }
 
 h2{
@@ -161,6 +180,10 @@ h2{
 //FOUR PICS RULES
 
 //REVIEWS RULES
+#reviewCon{
+    text-align:center;
+    background-color:grey;
+}
 
 //VIDEO RULES
 
@@ -206,3 +229,9 @@ footer{
     margin-bottom:30px;
 }
 
+#copyCon{
+    text-align:right;
+    font-size:10px;
+    padding-right:5px;
+    background-color:grey;
+}
