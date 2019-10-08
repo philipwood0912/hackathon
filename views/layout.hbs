@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>ThermoSecurity by HomeCom</title>
 </head>
 <body>
     {{!-- {{{body}}} --}}
-    <header> 
-        <div id="burgerCon"></div>
-        <div id="mobileNav"></div>
+    <header id="mainHeader">  
+        <div id="menuCon">
+            <img src="../images/burger.svg">
+        </div>
+
         <div id="deskNav"></div>
-        <div id="LogoCon"></div>
-        <div id="LoginCon"></div>
+            <img id="mainLogo" src="../images/housecom_logo_2.svg">
+            <img id="loginLogo" src="../images/user2.svg">
     </header>
+    <div id="hamburgerNav">
+            <h2 class="hidden">Main Navigation</h2>
+            <div id="burgerCon">
+                <ul id="burgerMenu">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="#staffPhoto">About</a> </li>
+                    <li> <a href="#promoProduct">Contact</a></li>
+                    <li> <a href="#contact">Register</a> </li>
+                    <li> <a href="#contact">Support</a> </li>
+                </ul>
+            </div>
+        </div>
 
     <div id="hero">
         <div id="slideshowCon"></div>

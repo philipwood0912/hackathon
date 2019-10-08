@@ -1,3 +1,4 @@
+
 .hidden {
     display: none;
 }
@@ -38,3 +39,102 @@
         opacity: 0;
     }
 }
+
+
+//FONTFACE SETTINGS
+@font-face{
+    font-family: 'myriad_pro', 'calibry';
+    src: url('../fonts/MYRIADPRO-REGULAR.woff')
+}
+
+//PAGE WIDE RULES
+
+//MOBILE STYLE RULES
+//HEADER RULES
+#mainHeader{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-right:5px;
+    padding-left:5px;
+    margin-bottom:30px;
+}
+
+//Burger menu
+#menuCon{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 27px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid #000000;
+    transition: all 500ms ease;
+}
+
+#burgerCon {
+    display: none;
+    background-color: #fff;
+}
+
+#burgerCon.slideToggle {
+    display: block;
+    overflow: inherit;
+}
+
+#hamburgerNav {
+    margin: 0 auto;
+}
+
+#hamburgerNav li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: #000000;
+}
+
+#hamburgerNav li a:hover {
+    color: #345bb2;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+}
+
+#hamburgerNav li {
+    border-bottom: 1px solid #000000;
+}
+
+#hamburgerNav li:first-child {
+    border-top: 1px solid #000000;
+}
+
+#menuCon.expanded {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#deskNav{
+    display:none;
+}
+
+#mainLogo{
+    margin-left:5px;
+}
+
+#loginLogo{
+    width:5%;
+}
+
+
+//SLIDESHOW RULES
+
+//REGISTER RULES
+
+//FOUR PICS RULES
+
+//REVIEWS RULES
+
+//VIDEO RULES
+
+
