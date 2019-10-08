@@ -40,28 +40,40 @@
 
 //FONTFACE SETTINGS
 @font-face{
-    font-family: 'myriadpro', 'calibry';
+    font-family: 'myriadpro', 'calibri';
     src: url('../fonts/MYRIADPRO-REGULAR.woff')
 }
 
 //PAGE WIDE RULES
 body{
+    font-family: 'myriadpro', 'calibri';
+    src: url('../fonts/MYRIADPRO-REGULAR.woff')
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
     margin: 0 auto;
 }
 
 p{
-    font-family: 'myriadpro', 'calibry';
-    font-size:12px;
+    font-size:10px;
+}
+
+h4{
+    margin:0;
 }
 
 h2{
-    font-family: 'myriadpro', 'calibry';
     color: #345bb2;
+}
+
+li{
+    font-size:12px;
 }
 
 img{
     width:100%;
 }
+
 
 .button{
     background-color: #345bb2; //blue
@@ -70,7 +82,7 @@ img{
     text-align:center;
     display:inline-block;
     color:white;
-    font-size:12px;
+    font-size:10px;
     border-radius:5px;
     margin:0 auto;
 }
@@ -83,15 +95,7 @@ img{
     justify-content:space-between;
     padding-right:5px;
     padding-left:5px;
-    margin-bottom:30px;
-    height: 100px;
-}
-
-#logoCon img{
-    height:70px;
-    width:70px;
     margin-top:5px;
-    
 }
 
 #menuCon.expanded {
@@ -101,13 +105,13 @@ img{
 }
 
 #menuCon {
-    margin-top: 15px;
-    width: 20px;
-    height: 20px;
-    line-height: 27px;
-    border-radius: 10px;
-    padding: 10px;
-    border: 3px solid #000000;
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+    line-height: 8px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #000000;
     transition: all 500ms ease;
     img {
         margin-right: 2px;
@@ -137,7 +141,7 @@ img{
 
 #hamburgerNav li a {
     display: block;
-    padding: 10px 0px 10px 0px;
+    padding: 3px 0px 3px 0px;
     text-align: center;
     color: #000000;
 }
@@ -149,11 +153,13 @@ img{
 }
 
 #hamburgerNav li {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid rgb(54, 69, 79);
+    border-bottom: 1px solid rgba(54, 69, 79, .5);
 }
 
 #hamburgerNav li:first-child {
-    border-top: 1px solid #000000;
+    border-top: 1px solid rgb(54, 69, 79);
+    border-top: 1px solid rgba(54, 69, 79, .5);
 }
 
 #mobileNav{
@@ -170,18 +176,15 @@ img{
 }
 
 #loginLogo{
-    width:5%;
+    width:8%;
 }
 
 //HERO & SLIDESHOW RULES
-
-
-
 #hero{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom:30px;
+    margin-top: 10px;
 }
 
 .descriptionCon{
@@ -196,16 +199,20 @@ img{
 
 //FOUR PICS RULES
 .fourPic{
-    margin-top:10px;
+    margin-top:15px;
 }
 
 //REVIEWS RULES
 #reviewCon{
     text-align:center;
     background-color:grey;
+    margin-top:15px;
 }
 
 //VIDEO RULES
+#videoCon{
+    margin-top:15px;
+}
 
 //CONTACT RULES
 #connect{
@@ -225,20 +232,26 @@ img{
 }
 
 #contactInfo{
-    font-size:14px;
-    width:50%;
-    margin-bottom:30px;
+    margin-bottom:15px;
+    padding-right:15px;
+    border-right: 1px solid rgb(54, 69, 79);
+    border-right: 1px solid rgba(54, 69, 79, .5);
 }
 
 #socialIcons{
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin-left:15px;
+    justify-content: center;
+    margin-left:40px;
+}
+
+.social:first-child{
+    margin-top:10px;
 }
 
 .social{
-    width:50px;
+    width:25px;
+    margin-top:30px;
 }
 
 //FOOTER RULES
@@ -246,12 +259,12 @@ footer{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    margin-bottom:30px;
+    margin-bottom:10px;
 }
 
 #copyCon{
     text-align:right;
-    font-size:10px;
+    font-size:5px;
     padding-right:5px;
     background-color:grey;
 }
