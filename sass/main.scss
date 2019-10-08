@@ -1,7 +1,7 @@
 
 // Tablet devices
 @mixin tablet {
-    @media (min-width: #{575px}) {
+    @media (min-width: #{500px}) {
         @content;
     }
  }
@@ -9,7 +9,7 @@
  
  // Desktop devices
  @mixin desktop {
-    @media (min-width: #{800px}) {
+    @media (min-width: #{880px}) {
         @content;
     }
  }
@@ -30,26 +30,26 @@ body{
     flex-direction:column;
     justify-content: center;
     margin: 0 auto;
+    max-width:900px;
 }
 
 p{
-    font-size:14px;
+    font-size:12px;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 16px;
     padding: 0;
     margin: 0;}
 
 h2{
     color: #345bb2;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 img{
     width:100%;
 }
-
 
 .button{
     background-color: #345bb2; //blue
@@ -177,8 +177,9 @@ img{
 }
 
 .descriptionCon{
-    text-align:left;
-    padding: 15px;
+    max-width:600px;
+    margin: 0 auto;
+    padding:5px;
 }
 
 
@@ -190,6 +191,10 @@ img{
 //FOUR PICS RULES
 .fourPic{
     margin-top:15px;
+}
+
+#pic3{
+    margin-top:0;
 }
 
 //REVIEWS RULES
@@ -360,7 +365,7 @@ footer{
 #copyCon{
     text-align:right;
     padding-right:5px;
-    background-color:grey;
+    background-color: lightgray;
 }
 
 #copyCon p{
@@ -369,16 +374,22 @@ footer{
 
 
 //MEDIA QUERIES AND BREAKPOINTS
-@include desktop{
-    #siteCon{
-        display:flex;
-        flex-direction: column;
-        margin: 0 auto;
-        max-width:920px;
+@include tablet{
+    p{
+        font-size:18px;
     }
 
+    h2{
+        font-size:24px;
+    }
+
+}
+
+@include desktop{
     //HEADER RULES
-    
+    #mainLogo{
+        width:30%;
+    }
     
     #menuCon.expanded {
         display:none;
@@ -463,22 +474,11 @@ footer{
         transition: color 0.2s;
         -webkit-transition: color 0.2s;
         }
-
-    #contactUs{
-            display:flex;
-            flex-direction:column;
-            margin:0 auto;
-        }
-        
-    #contactCon{
-            display:flex;
-            flex-direction:row;
-            justify-content: center;
-        }
+    
         
     #contactInfo{
             margin-bottom:15px;
-            padding-right:15px;
+            padding-right:50px;
             border-right: 1px solid rgb(54, 69, 79);
             border-right: 1px solid rgba(54, 69, 79, .5);
         }
@@ -487,15 +487,12 @@ footer{
             display:flex;
             flex-direction: column;
             justify-content: center;
-            margin-left:30px;
-            margin-bottom:50px;
+            padding-left:50px;
         }
         
         
     .social{
-            width:25px;
+            width:50px;
             margin-top:40px;
         }
-
-
 }

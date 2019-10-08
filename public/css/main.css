@@ -9,19 +9,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 900px; }
 
 p {
-  font-size: 14px; }
+  font-size: 12px; }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   padding: 0;
   margin: 0; }
 
 h2 {
   color: #345bb2;
-  font-size: 24px; }
+  font-size: 18px; }
 
 img {
   width: 100%; }
@@ -127,14 +128,18 @@ img {
     right: 0; }
 
 .descriptionCon {
-  text-align: left;
-  padding: 15px; }
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 5px; }
 
 #placeholder {
   width: 100%; }
 
 .fourPic {
   margin-top: 15px; }
+
+#pic3 {
+  margin-top: 0; }
 
 #reviewCon {
   text-align: center;
@@ -257,17 +262,20 @@ footer {
 #copyCon {
   text-align: right;
   padding-right: 5px;
-  background-color: grey; }
+  background-color: lightgray; }
 
 #copyCon p {
   font-size: 8px; }
 
-@media (min-width: 800px) {
-  #siteCon {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 920px; }
+@media (min-width: 500px) {
+  p {
+    font-size: 18px; }
+  h2 {
+    font-size: 24px; } }
+
+@media (min-width: 880px) {
+  #mainLogo {
+    width: 30%; }
   #menuCon.expanded {
     display: none; }
   #menuCon {
@@ -324,25 +332,16 @@ footer {
     color: #345bb2;
     transition: color 0.2s;
     -webkit-transition: color 0.2s; }
-  #contactUs {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto; }
-  #contactCon {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
   #contactInfo {
     margin-bottom: 15px;
-    padding-right: 15px;
+    padding-right: 50px;
     border-right: 1px solid #36454f;
     border-right: 1px solid rgba(54, 69, 79, 0.5); }
   #socialIcons {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 30px;
-    margin-bottom: 50px; }
+    padding-left: 50px; }
   .social {
-    width: 25px;
+    width: 50px;
     margin-top: 40px; } }
