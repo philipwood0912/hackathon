@@ -1,4 +1,19 @@
 
+// Tablet devices
+@mixin tablet {
+    @media (min-width: #{575px;}) {
+        @content;
+    }
+ }
+
+ 
+ // Desktop devices
+ @mixin desktop {
+    @media (min-width: #{990px;}) {
+        @content;
+    }
+ }
+
 .hidden {
     display: none;
 }
@@ -154,4 +169,3 @@ footer{
     padding-right:5px;
     background-color:grey;
 }
-
