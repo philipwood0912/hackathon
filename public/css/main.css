@@ -34,9 +34,6 @@ h2 {
 h3 {
   font-family: 'myriadpro', Helvetica, sans seriff; }
 
-a {
-  transition: all .15s linear; }
-
 img {
   max-width: 100%; }
 
@@ -44,8 +41,7 @@ video {
   max-width: 100%; }
 
 .button, a, #loginLogo, .social, .arrow {
-  cursor: pointer;
-  transition: all .15s linear; }
+  cursor: pointer; }
 
 .button {
   font-family: 'myriadpro', Helvetica, sans seriff;
@@ -123,7 +119,7 @@ video {
 #mobileNav {
   display: none; }
 
-#deskNav {
+#longNav {
   display: none; }
 
 #mainLogo {
@@ -304,18 +300,18 @@ footer {
     display: flex;
     flex-direction: row;
     margin-left: 500px; }
-  #deskNav {
+  #longNav {
     display: flex;
     margin: 0 auto; }
-  #deskNav li {
+  #longNav li {
     list-style: none;
     border-right: 1px solid #36454f;
     border-right: 1px solid rgba(54, 69, 79, 0.5); }
-  #deskNav a {
+  #longNav a {
     text-decoration: none;
     color: black;
     padding: 15px; }
-  #deskNav li a:hover {
+  #longNav li a:hover {
     color: #345bb2;
     transition: color 0.2s;
     -webkit-transition: color 0.2s; }
