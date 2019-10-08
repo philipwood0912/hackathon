@@ -19,11 +19,16 @@
 }
 
 //FONTFACE SETTINGS
+@font-face {
+	font-family: 'myriadpro';
+    src: url('../fonts/myriadpro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/myriadpro-regular-webfont.woff') format('woff');
+}
 
 
 //PAGE WIDE RULES
 body{
-    font-family: 'myriadpro';
+    font-family: 'myriadpro', Helvetica, sans seriff;
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -32,17 +37,29 @@ body{
 }
 
 p{
+    font-family: 'myriadpro', Helvetica, sans seriff;
+
     font-size:12px;
 }
 
+h1{
+    font-family: 'myriadpro', Helvetica, sans seriff;
+}
+
 h4 {
+    font-family: 'myriadpro', Helvetica, sans seriff;
     font-size: 16px;
     padding: 0;
     margin: 0;}
 
 h2{
+    font-family: 'myriadpro', Helvetica, sans seriff;
     color: #345bb2;
     font-size: 18px;
+}
+
+h3{
+    font-family: 'myriadpro', Helvetica, sans seriff;
 }
 
 img{
@@ -50,6 +67,8 @@ img{
 }
 
 .button{
+    font-family: 'myriadpro', Helvetica, sans seriff;
+
     background-color: #345bb2; //blue
     border:none;
     padding:10px;
@@ -204,6 +223,7 @@ img{
 #reviewCon{
     text-align:center;
     background-color: lightgray;
+    padding:10px;
     margin-top:10px;
 }
 
@@ -348,15 +368,14 @@ footer{
         font-size:24px;
     }
 
-    
+    .button{
+        font-size:20px;
+    }
 
 }
 
 @include desktop{
     //HEADER RULES
-    #mainLogo{
-        width:30%;
-    }
     
     #menuCon.expanded {
         display:none;

@@ -1,8 +1,12 @@
 .hidden {
   display: none; }
 
-body {
+@font-face {
   font-family: 'myriadpro';
+  src: url("../fonts/myriadpro-regular-webfont.woff2") format("woff2"), url("../fonts/myriadpro-regular-webfont.woff") format("woff"); }
+
+body {
+  font-family: 'myriadpro', Helvetica, sans seriff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,21 +14,31 @@ body {
   max-width: 900px; }
 
 p {
+  font-family: 'myriadpro', Helvetica, sans seriff;
   font-size: 12px; }
 
+h1 {
+  font-family: 'myriadpro', Helvetica, sans seriff; }
+
 h4 {
+  font-family: 'myriadpro', Helvetica, sans seriff;
   font-size: 16px;
   padding: 0;
   margin: 0; }
 
 h2 {
+  font-family: 'myriadpro', Helvetica, sans seriff;
   color: #345bb2;
   font-size: 18px; }
+
+h3 {
+  font-family: 'myriadpro', Helvetica, sans seriff; }
 
 img {
   max-width: 100%; }
 
 .button {
+  font-family: 'myriadpro', Helvetica, sans seriff;
   background-color: #345bb2;
   border: none;
   padding: 10px;
@@ -145,6 +159,7 @@ img {
 #reviewCon {
   text-align: center;
   background-color: lightgray;
+  padding: 10px;
   margin-top: 10px; }
 
 .divWrap {
@@ -248,11 +263,11 @@ footer {
   p {
     font-size: 18px; }
   h2 {
-    font-size: 24px; } }
+    font-size: 24px; }
+  .button {
+    font-size: 20px; } }
 
 @media (min-width: 900px) {
-  #mainLogo {
-    width: 30%; }
   #menuCon.expanded {
     display: none; }
   #menuCon {
